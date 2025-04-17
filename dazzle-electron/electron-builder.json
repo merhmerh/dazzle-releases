@@ -1,0 +1,20 @@
+{
+    "appId": "com.merhmerh.dazzlegpt",
+    "productName": "dazzleGPT",
+    "directories": {
+        "output": "dist"
+    },
+    "files": [
+        "main.js",
+        "assets/**/*"
+    ],
+    "win": {
+        "icon": "assets/icon.ico",
+        "target": "nsis"
+    },
+    "publish": {
+        "provider": "github",
+        "owner": "merhmerh",
+        "repo": "dazzle-ssg"
+    }
+}

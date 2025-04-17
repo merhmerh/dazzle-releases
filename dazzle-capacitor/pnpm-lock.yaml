@@ -8,12 +8,24 @@ importers:
 
   .:
     dependencies:
+      '@capacitor-community/file-opener':
+        specifier: ^7.0.1
+        version: 7.0.1(@capacitor/core@7.2.0)
       '@capacitor/android':
         specifier: ^7.2.0
         version: 7.2.0(@capacitor/core@7.2.0)
+      '@capacitor/browser':
+        specifier: ^7.0.1
+        version: 7.0.1(@capacitor/core@7.2.0)
       '@capacitor/core':
         specifier: ^7.2.0
         version: 7.2.0
+      '@capacitor/filesystem':
+        specifier: ^7.0.1
+        version: 7.0.1(@capacitor/core@7.2.0)
+      '@capacitor/share':
+        specifier: ^7.0.1
+        version: 7.0.1(@capacitor/core@7.2.0)
       '@capacitor/status-bar':
         specifier: ^7.0.1
         version: 7.0.1(@capacitor/core@7.2.0)
@@ -30,10 +42,21 @@ importers:
 
 packages:
 
+  '@capacitor-community/file-opener@7.0.1':
+    resolution: {integrity: sha512-Jg/S7p93vI7Lk7rBCeqesgN9wvvZwBcvKkLMaTj7xruIGzU+iXizR5dVntBV6ooDArp25/B5iF6J3BvA6YVppA==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
+    peerDependencies:
+      '@capacitor/core': '>=7.0.0'
+
   '@capacitor/android@7.2.0':
     resolution: {integrity: sha512-zdhEy3jZPG5Toe/pGzKtDgIiBGywjaoEuQWnGVjBYPlSAEUtAhpZ2At7V0SCb26yluAuzrAUV0Ue+LQeEtHwFQ==}
     peerDependencies:
       '@capacitor/core': ^7.2.0
+
+  '@capacitor/browser@7.0.1':
+    resolution: {integrity: sha512-N6KEVLw2enTnourQzYJLvAkSds2Ed21zqsvHnSImrVDenzX8fUj032kMt4EdewmxfxiEwRa911BT1VOPBi0fEA==}
+    peerDependencies:
+      '@capacitor/core': '>=7.0.0'
 
   '@capacitor/cli@7.2.0':
     resolution: {integrity: sha512-RNW9vtYYYSDmOdguYBSW0VpRnG/d6lGydlc9DLrJ7qbSPxFrotTz9IjkM48O+SruUma61DyuSqJttdbay2xSxg==}
@@ -43,8 +66,18 @@ packages:
   '@capacitor/core@7.2.0':
     resolution: {integrity: sha512-2zCnA6RJeZ9ec4470o8QMZEQTWpekw9FNoqm5TLc10jeCrhvHVI8MPgxdZVc3mOdFlyieYu4AS1fNxSqbS57Pw==}
 
+  '@capacitor/filesystem@7.0.1':
+    resolution: {integrity: sha512-dxuKNLFoUejm7tBKkQPs1j7+BLpDh5JKPSVu7nT8jgCbA/KXt5FoCLiepfkjWkYfq60X0JNFzGnIquc5FPOLzQ==}
+    peerDependencies:
+      '@capacitor/core': '>=7.0.0'
+
   '@capacitor/keyboard@7.0.1':
     resolution: {integrity: sha512-Gi064vOARMac+x9/DmEFeywN9oAETMf3OYsMuYm9gA8SvdsDJ3QJqMoFnSEIORYXe21Jzt2SIEdLlpT65P/b2g==}
+    peerDependencies:
+      '@capacitor/core': '>=7.0.0'
+
+  '@capacitor/share@7.0.1':
+    resolution: {integrity: sha512-7GAtWrb2inEWohC8E7mx38qAX6D9yqPDDnUtJaZ8JRpo15jjFRS40Cx388M8h4NlBWjV5NU3qf1sHXnyOBSJ5g==}
     peerDependencies:
       '@capacitor/core': '>=7.0.0'
 
@@ -457,7 +490,15 @@ packages:
 
 snapshots:
 
+  '@capacitor-community/file-opener@7.0.1(@capacitor/core@7.2.0)':
+    dependencies:
+      '@capacitor/core': 7.2.0
+
   '@capacitor/android@7.2.0(@capacitor/core@7.2.0)':
+    dependencies:
+      '@capacitor/core': 7.2.0
+
+  '@capacitor/browser@7.0.1(@capacitor/core@7.2.0)':
     dependencies:
       '@capacitor/core': 7.2.0
 
@@ -487,7 +528,15 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
+  '@capacitor/filesystem@7.0.1(@capacitor/core@7.2.0)':
+    dependencies:
+      '@capacitor/core': 7.2.0
+
   '@capacitor/keyboard@7.0.1(@capacitor/core@7.2.0)':
+    dependencies:
+      '@capacitor/core': 7.2.0
+
+  '@capacitor/share@7.0.1(@capacitor/core@7.2.0)':
     dependencies:
       '@capacitor/core': 7.2.0
 
