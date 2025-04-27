@@ -11,6 +11,9 @@ importers:
       '@capacitor-community/file-opener':
         specifier: ^7.0.1
         version: 7.0.1(@capacitor/core@7.2.0)
+      '@capacitor-community/media':
+        specifier: ^8.0.1
+        version: 8.0.1(@capacitor/core@7.2.0)
       '@capacitor/android':
         specifier: ^7.2.0
         version: 7.2.0(@capacitor/core@7.2.0)
@@ -45,6 +48,11 @@ packages:
   '@capacitor-community/file-opener@7.0.1':
     resolution: {integrity: sha512-Jg/S7p93vI7Lk7rBCeqesgN9wvvZwBcvKkLMaTj7xruIGzU+iXizR5dVntBV6ooDArp25/B5iF6J3BvA6YVppA==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
+    peerDependencies:
+      '@capacitor/core': '>=7.0.0'
+
+  '@capacitor-community/media@8.0.1':
+    resolution: {integrity: sha512-u4+f7iVQV6BdsDi0MeQigJpwRztfuzsRTskwp1YS6nAS+6Gg5zLFOW/vnQgnpPIJQBO54plb4UZQYE9Wv/1Yxw==}
     peerDependencies:
       '@capacitor/core': '>=7.0.0'
 
@@ -491,6 +499,10 @@ packages:
 snapshots:
 
   '@capacitor-community/file-opener@7.0.1(@capacitor/core@7.2.0)':
+    dependencies:
+      '@capacitor/core': 7.2.0
+
+  '@capacitor-community/media@8.0.1(@capacitor/core@7.2.0)':
     dependencies:
       '@capacitor/core': 7.2.0
 
